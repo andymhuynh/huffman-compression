@@ -6,8 +6,6 @@ A C++ implementation of Huffman Coding for lossless text compression and decompr
 
 This project implements a Huffman Coding compressor in C++. It builds a frequency table from text input, constructs a Huffman tree, generates variable-length binary codes, and uses those codes to compress and decompress text files.
 
-The project demonstrates data structures, file I/O, binary trees, priority-based encoding, and lossless compression logic.
-
 ## Features
 
 - Builds character frequency tables from text files
@@ -16,39 +14,25 @@ The project demonstrates data structures, file I/O, binary trees, priority-based
 - Compresses text using Huffman encoding
 - Decompresses encoded files back into original text
 - Includes sample text files for testing
-- Uses separate source/header files for maintainability
 
 ## Technologies
 
 - C++
 - CMake
-- Binary trees
+- Binary Trees
 - File I/O
-- Data structures
-- Lossless compression
-
-## Core Concepts
-
-This project demonstrates:
-
-- Huffman Coding
-- Binary tree traversal
-- Character frequency analysis
-- Variable-length prefix codes
-- Text compression and restoration
-- File serialization and deserialization
+- Data Structures
 
 ## Project Structure
 
-.
-├── Huffman.cpp
-├── Huffman.h
-├── HuffmanDriver.cpp
-├── Node.h
-├── CMakeLists.txt
-├── Storage/
-├── images/
-└── text_files/
+- Huffman.cpp
+- Huffman.h
+- HuffmanDriver.cpp
+- Node.h
+- CMakeLists.txt
+- Storage/
+- images/
+- text_files/
 
 ## Build and Run
 
@@ -57,13 +41,14 @@ mkdir build
 cd build
 cmake ..
 make
-## Project Structure
 
-- `Huffman.cpp`
-- `Huffman.h`
-- `HuffmanDriver.cpp`
-- `Node.h`
-- `CMakeLists.txt`
-- `Storage/`
-- `images/`
-- `text_files/`
+
+
+```
+
+## What I Learned
+
+- How Huffman Coding reduces file size using variable-length encoding
+- How to construct and traverse binary trees
+- How to work with file input and output in C++
+- How to organize compression and decompression workflows

@@ -57,3 +57,13 @@ mkdir build
 cd build
 cmake ..
 make
+## Project Structure
+
+- `Huffman.cpp`
+- `Huffman.h`
+- `HuffmanDriver.cpp`
+- `Node.h`
+- `CMakeLists.txt`
+- `Storage/`
+- `images/`
+- `text_files/`
